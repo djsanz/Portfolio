@@ -147,7 +147,7 @@ export default function Proyectos() {
 							Ejemplo de como se puede hacer una tienda online usando Crypto como pago. Los pedidos se guardan en la Blockchain. Solo se necesitaría una API para los productos.
 						</p>
 						<p className="indent-6">
-							Usamos una moneda "SanzUSDC" y un contrato para guardar los pedidos, ambos creados en Solidity y con sus respectivos "Faucets".
+							Usamos una moneda SanzUSDC y un contrato para guardar los pedidos, ambos creados en Solidity y con sus respectivos Faucets.
 						</p>
 						<p className="indent-6">
 							Esta desplegado en Goerli, una TestNet de Ethereum, ya que esté proyecto de momento es solo un Demo educativo.
