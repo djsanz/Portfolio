@@ -1,0 +1,19 @@
+{
+  "main.js": "/TheSafeBNB/static/js/main.4fa8072a.chunk.js",
+  "main.js.map": "/TheSafeBNB/static/js/main.4fa8072a.chunk.js.map",
+  "runtime~main.js": "/TheSafeBNB/static/js/runtime~main.63c99ab5.js",
+  "runtime~main.js.map": "/TheSafeBNB/static/js/runtime~main.63c99ab5.js.map",
+  "static/css/2.c96e1c67.chunk.css": "/TheSafeBNB/static/css/2.c96e1c67.chunk.css",
+  "static/js/2.42af9644.chunk.js": "/TheSafeBNB/static/js/2.42af9644.chunk.js",
+  "static/js/2.42af9644.chunk.js.map": "/TheSafeBNB/static/js/2.42af9644.chunk.js.map",
+  "index.html": "/TheSafeBNB/index.html",
+  "precache-manifest.e17e56308685e394d008539ed816853e.js": "/TheSafeBNB/precache-manifest.e17e56308685e394d008539ed816853e.js",
+  "service-worker.js": "/TheSafeBNB/service-worker.js",
+  "static/css/2.c96e1c67.chunk.css.map": "/TheSafeBNB/static/css/2.c96e1c67.chunk.css.map",
+  "static/media/CajaFuerte.png": "/TheSafeBNB/static/media/CajaFuerte.5833fed1.png",
+  "static/media/GoldKey.png": "/TheSafeBNB/static/media/GoldKey.ff0367bf.png",
+  "static/media/IronKey.png": "/TheSafeBNB/static/media/IronKey.bb32433a.png",
+  "static/media/SilverKey.png": "/TheSafeBNB/static/media/SilverKey.6a825358.png",
+  "static/media/espacio.png": "/TheSafeBNB/static/media/espacio.bdeab2c9.png",
+  "static/media/metamask.svg": "/TheSafeBNB/static/media/metamask.e56c02db.svg"
+}
