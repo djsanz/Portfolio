@@ -8,11 +8,11 @@ import GithubLogo from '../images/github.svg'
 
 export default function Portada() {
 	return (
-		<div className="flex mt-10">
-			<div className="basis-1/2 justify-center self-center ">
-				<Image src={Avatar} alt="Logo" className="inline rounded-xl w-[80%]"/>
+		<div className="flex m-0 xs:mt-10 flex-col xs:flex-row mx-4">
+			<div className="flex justify-center self-center">
+				<Image src={Avatar} alt="Logo" className="rounded-xl w-[0%] xs:w-[100%]"/>
 			</div>
-			<div className="flex flex-1 flex-col mt-5">
+			<div className="flex flex-col px-10 xs:px-0 mt-4 xs:mt-4">
 				<div className="pb-3 text-start px-5 font-Dancing text-3xl md:text-5xl lg:text-7xl text-amber-500">
 					Javier Sanz
 				</div>
