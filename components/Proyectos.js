@@ -2,12 +2,12 @@ import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
 
-import SoftSelfServiceWeb from "../Images/App/SoftSelfServiceWeb.png"
-import SoftSelfServiceEjecutador from "../Images/App/SoftSelfServiceEjecutador.png"
-import TheSafeBNB from "../Images/App/TheSafeBNB.png"
-import MyDynamicNFT from "../Images/App/EditNFT2.gif"
-import MyNftID from "../Images/App/MyNftID.png"
-import CryptoShop from "../Images/App/CryptoShop.png"
+import SoftSelfServiceWeb from "../images/App/SoftSelfServiceWeb.png"
+import SoftSelfServiceEjecutador from "../images/App/SoftSelfServiceEjecutador.png"
+import TheSafeBNB from "../images/App/TheSafeBNB.png"
+import MyDynamicNFT from "../images/App/EditNFT2.gif"
+import MyNftID from "../images/App/MyNftID.png"
+import CryptoShop from "../images/App/CryptoShop.png"
 
 export default function Proyectos() {
 	return (
