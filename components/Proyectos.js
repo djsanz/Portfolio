@@ -2,12 +2,12 @@ import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
 
-import SoftSelfServiceWeb from "../public/Images/SoftSelfServiceWeb.png"
-import SoftSelfServiceEjecutador from "../public/Images/SoftSelfServiceEjecutador.png"
-import TheSafeBNB from "../public/Images/TheSafeBNB.png"
-import MyDynamicNFT from "../public/Images/EditNFT2.gif"
-import MyNftID from "../public/Images/MyNftID.png"
-import CryptoShop from "../public/Images/CryptoShop.png"
+import SoftSelfServiceWeb from "../Images/App/SoftSelfServiceWeb.png"
+import SoftSelfServiceEjecutador from "../Images/App/SoftSelfServiceEjecutador.png"
+import TheSafeBNB from "../Images/App/TheSafeBNB.png"
+import MyDynamicNFT from "../Images/App/EditNFT2.gif"
+import MyNftID from "../Images/App/MyNftID.png"
+import CryptoShop from "../Images/App/CryptoShop.png"
 
 export default function Proyectos() {
 	return (
@@ -21,10 +21,10 @@ export default function Proyectos() {
 				</div>
 				<div className="flex pl-6 pr-6 pb-3 pt-3">
 					<div className="flex-1 justify-center space-y-5">
-						<a href="/images/SoftSelfServiceWeb.png" rel="noopener noreferrer" target="_blank">
+						<a href={SoftSelfServiceWeb.src} rel="noopener noreferrer" target="_blank">
 							<Image alt="SoftSelfServiceWeb" className="inline p-2" src={SoftSelfServiceWeb}/>
 						</a>
-						<a href="/images/SoftSelfServiceEjecutador.png" rel="noopener noreferrer" target="_blank">
+						<a href={SoftSelfServiceEjecutador.src} rel="noopener noreferrer" target="_blank">
 							<Image alt="SoftSelfServiceEjecutador" className="inline p-2" src={SoftSelfServiceEjecutador}/>
 						</a>
 					</div>
@@ -40,13 +40,13 @@ export default function Proyectos() {
 			</div>
 			<div className="border-2 mt-6 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600">
 				<div className="pl-12 text-gray-400 font-bold text-2xl text-left">
-					<Link href="/TheSafeBNB" rel="noopener noreferrer" target="_blank" className="hover:text-amber-500 hover:font-bold">
+					<Link href="/TheSafeBNB" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
 						TheSafeBNB
 					</Link>
 				</div>
 				<div className="flex pl-6 pr-6 pb-3 pt-3">
 					<div className="flex-1 justify-center space-y-5">
-						<a href="/images/TheSafeBNB.png" rel="noopener noreferrer" target="_blank">
+						<a href={TheSafeBNB.src} rel="noopener noreferrer" target="_blank">
 							<Image alt="TheSafeBNB" className="inline p-2" src={TheSafeBNB}/>
 						</a>
 					</div>
@@ -66,13 +66,13 @@ export default function Proyectos() {
 			</div>
 			<div className="border-2 mt-6 mb-6 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600">
 				<div className="pl-12 text-gray-400 font-bold text-2xl text-left">
-					<a href="https://MyDynamicNFT.com" rel="noopener noreferrer" target="_blank" className="hover:text-amber-500 hover:font-bold">
+					<a href="https://MyDynamicNFT.com" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
 						MyDynamicNFT.com
 					</a>
 				</div>
 				<div className="flex pl-6 pr-6 pb-3 pt-3">
 					<div className="flex-1 justify-center space-y-5">
-						<a href="/images/EditNFT2.gif" rel="noopener noreferrer" target="_blank">
+						<a href={MyDynamicNFT.src} rel="noopener noreferrer" target="_blank">
 							<Image alt="MyDynamicNFT" className="inline p-2" src={MyDynamicNFT}/>
 						</a>
 					</div>
@@ -82,11 +82,11 @@ export default function Proyectos() {
 						</p>
 						<p className="indent-6 pt-2">
 							Está desplegado en las redes (y sus TestNet):
-							<li>Ethereum</li>
-							<li>Binance Smart Chain</li>
-							<li>Polygon</li>
-							<li>Velas</li>
 						</p>
+						<li className="indent-6">Ethereum</li>
+						<li className="indent-6">Binance Smart Chain</li>
+						<li className="indent-6">Polygon</li>
+						<li className="indent-6">Velas</li>
 						<p className="indent-6">
 							Es totalmente compatible con Markets del tipo OpenSea o Rarible.
 						</p>
@@ -98,13 +98,13 @@ export default function Proyectos() {
 			</div>
 			<div className="border-2 mb-6 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600">
 				<div className="pl-12 text-gray-400 font-bold text-2xl text-left">
-					<a href="https://mynftid.vercel.app/" rel="noopener noreferrer" target="_blank" className="hover:text-amber-500 hover:font-bold">
+					<a href="https://mynftid.vercel.app/" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
 						MyNftID
 					</a>
 				</div>
 				<div className="flex pl-6 pr-6 pb-3 pt-3">
 					<div className="flex-1 justify-center space-y-5">
-						<a href="/images/MyNftID.png" rel="noopener noreferrer" target="_blank">
+						<a href={MyNftID.src} rel="noopener noreferrer" target="_blank">
 							<Image alt="MyNftID" className="inline p-2" src={MyNftID}/>
 						</a>
 					</div>
@@ -114,10 +114,10 @@ export default function Proyectos() {
 						</p>
 						<p className="indent-6 pt-2">
 							Por ahora solo se puede verificar:
-							<li>Discord</li>
-							<li>Twitter</li>
-							<li>eMail</li>
 						</p>
+						<li className="indent-6">Discord</li>
+						<li className="indent-6">Twitter</li>
+						<li className="indent-6">eMail</li>
 						<p className="indent-6">
 							El Nft es un contrato en Solidity totalmente personalizado, que solo puede tener uno por Wallet y no se puede transferir.
 						</p>
@@ -132,13 +132,13 @@ export default function Proyectos() {
 			</div>
 			<div className="border-2 mb-6 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600">
 				<div className="pl-12 text-gray-400 font-bold text-2xl text-left">
-					<a href="https://cryptoeshop.vercel.app" rel="noopener noreferrer" target="_blank" className="hover:text-amber-500 hover:font-bold">
+					<a href="https://cryptoeshop.vercel.app" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
 						CryptoShop
 					</a>
 				</div>
 				<div className="flex pl-6 pr-6 pb-3 pt-3">
 					<div className="flex-1 justify-center space-y-5">
-						<a href="/images/CryptoShop.png" rel="noopener noreferrer" target="_blank">
+						<a href={CryptoShop.src} rel="noopener noreferrer" target="_blank">
 							<Image alt="CryptoShop" className="inline p-2" src={CryptoShop}/>
 						</a>
 					</div>

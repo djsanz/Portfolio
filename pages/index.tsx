@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>JSanzC Portfolio</title>
+        <title>DjSanz Portfolio</title>
         <meta name="description" content="Portfolio de Javier Sanz Calvo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
