@@ -17,7 +17,7 @@ export default function Proyectos() {
 			</div>
 			{/* SoftSelfService */}
 			<div className="border-2 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600">
-				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left">
+				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left pt-2">
 					SoftSelfService (App Privada)
 				</div>
 				<div className="flex pl-6 pr-6 pb-3 pt-3 flex-col md:flex-row">
@@ -49,7 +49,7 @@ export default function Proyectos() {
 
 			{/* TheSafeBNB */}
 			<div className="border-2 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600 mt-4">
-				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left">
+				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left pt-2">
 					<Link href="/TheSafeBNB" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
 						TheSafeBNB
 					</Link>
@@ -77,7 +77,7 @@ export default function Proyectos() {
 
 			{/* MyDynamicNFT.com */}
 			<div className="border-2 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600 mt-4">
-				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left">
+				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left pt-2">
 					<a href="https://MyDynamicNFT.com" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
 						MyDynamicNFT.com
 					</a>
@@ -111,7 +111,7 @@ export default function Proyectos() {
 
 			{/* MyNftID */}
 			<div className="border-2 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600 mt-4">
-				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left">
+				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left pt-2">
 					<a href="https://mynftid.MyDynamicNFT.com" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
 						MyNftID
 					</a>
@@ -147,14 +147,14 @@ export default function Proyectos() {
 
 			{/* CryptoShop */}
 			<div className="border-2 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600 mt-4">
-				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left">
+				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left pt-2">
 					<a href="https://cryptoshop.djsanz.es" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
 						CryptoShop
 					</a>
 				</div>
 				<div className="flex pl-6 pr-6 pb-3 pt-3 flex-col md:flex-row">
 					<div className="justify-center">
-					<a href={CryptoShop.src} rel="noopener noreferrer" target="_blank">
+						<a href={CryptoShop.src} rel="noopener noreferrer" target="_blank">
 							<Image alt="CryptoShop" className="inline p-2" src={CryptoShop}/>
 						</a>
 					</div>
