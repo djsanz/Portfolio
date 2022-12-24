@@ -10,10 +10,10 @@ export default function Portada() {
 	return (
 		<div className="flex m-0 xs:mt-10 flex-col xs:flex-row mx-4">
 			<div className="flex justify-center self-center">
-				<Image src={Avatar} alt="Logo" className="rounded-xl w-[0%] xs:w-[100%]"/>
+				<Image src={Avatar} alt="Logo" className="rounded-xl w-[40%] pt-2 xs:pt-0 xs:w-[100%]"/>
 			</div>
-			<div className="flex flex-col px-10 xs:px-0 mt-4 xs:mt-4">
-				<div className="pb-3 text-start px-5 font-Dancing text-3xl md:text-5xl lg:text-7xl text-amber-500">
+			<div className="flex flex-col px-1 xs:px-10 mt-4 xs:mt-4">
+				<div className="pb-3 text-start px-5 font-Dancing text-5xl lg:text-7xl text-amber-500">
 					Javier Sanz
 				</div>
 				<div className="flex text-start px-10 font-extralight text-xs md:text-base opacity-60 space-x-5">

@@ -23,7 +23,7 @@ import SolidityLogo from "../images/iconos/Solidity.jpg"
 
 export default function Tecnologias() {
 	return (
-		<div className="flex flex-col mt-8 px-14">
+		<div className="flex flex-col mt-8 px-3 xs:px-14">
 			<div className="mb-4 font-Dancing text-amber-500 text-4xl text-left">
 				Conocimientos:
 			</div>

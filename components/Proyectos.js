@@ -11,13 +11,13 @@ import CryptoShop from "../images/App/CryptoShop.png"
 
 export default function Proyectos() {
 	return (
-		<div className="flex flex-col mt-8 px-14">
+		<div className="flex flex-col mt-8 px-3 xs:px-14">
 			<div className="mb-4 font-Dancing text-amber-500 text-4xl text-left">
 				Mis Proyectos:
 			</div>
 			{/* SoftSelfService */}
 			<div className="border-2 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600">
-				<div className="pl-12 text-gray-400 font-bold text-2xl text-left">
+				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left">
 					SoftSelfService (App Privada)
 				</div>
 				<div className="flex pl-6 pr-6 pb-3 pt-3 flex-col md:flex-row">
@@ -46,7 +46,7 @@ export default function Proyectos() {
 
 			{/* TheSafeBNB */}
 			<div className="border-2 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600 mt-4">
-				<div className="pl-12 text-gray-400 font-bold text-2xl text-left">
+				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left">
 					<Link href="/TheSafeBNB" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
 						TheSafeBNB
 					</Link>
@@ -74,7 +74,7 @@ export default function Proyectos() {
 
 			{/* MyDynamicNFT.com */}
 			<div className="border-2 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600 mt-4">
-				<div className="pl-12 text-gray-400 font-bold text-2xl text-left">
+				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left">
 					<a href="https://MyDynamicNFT.com" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
 						MyDynamicNFT.com
 					</a>
@@ -108,8 +108,8 @@ export default function Proyectos() {
 
 			{/* MyNftID */}
 			<div className="border-2 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600 mt-4">
-				<div className="pl-12 text-gray-400 font-bold text-2xl text-left">
-					<a href="https://mynftid.vercel.app/" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
+				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left">
+					<a href="https://mynftid.MyDynamicNFT.com" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
 						MyNftID
 					</a>
 				</div>
@@ -144,8 +144,8 @@ export default function Proyectos() {
 
 			{/* CryptoShop */}
 			<div className="border-2 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600 mt-4">
-				<div className="pl-12 text-gray-400 font-bold text-2xl text-left">
-					<a href="https://cryptoeshop.vercel.app" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
+				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left">
+					<a href="https://cryptoshop.djsanz.es" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
 						CryptoShop
 					</a>
 				</div>
