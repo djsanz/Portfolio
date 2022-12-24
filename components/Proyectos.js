@@ -40,6 +40,9 @@ export default function Proyectos() {
 						<p className="indent-6 pt-2">
 							Usando este servicio junto con unos ficheros de configuración, se aplican instalaciones y configuraciones especificas en el inicio de sesión del usuario, dependiendo a que grupo de seguridad pertenezcan, dejando el equipo listo para trabajar independientemente de en que equipo esté.
 						</p>
+						<p className="indent-6">
+							Se ha creado usado Php Slim, MySql y AutoIt.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -100,7 +103,7 @@ export default function Proyectos() {
 							Es totalmente compatible con Markets del tipo OpenSea o Rarible.
 						</p>
 						<p className="indent-6">
-							Se ha creado usado React, Python Flask y Solidity para los contratos.
+							Se ha creado usado React, Python Flask, MongoDB y Solidity para los contratos.
 						</p>
 					</div>
 				</div>
@@ -136,7 +139,7 @@ export default function Proyectos() {
 							Esta desplegado en Mumbai, la TestNet de Polygon, ya que esté proyecto de momento es solo un Demo.
 						</p>
 						<p className="indent-6">
-							Se ha creado usado React, ExpressJS y Solidity para los contratos.
+							Se ha creado usado React, ExpressJS, MongoDB y Solidity para los contratos.
 						</p>
 					</div>
 				</div>
