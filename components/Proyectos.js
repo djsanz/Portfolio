@@ -2,6 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
 
+import SoftSelfServiceEsquema from "../images/App/SoftSelfServiceEsquema.png"
 import SoftSelfServiceWeb from "../images/App/SoftSelfServiceWeb.png"
 import SoftSelfServiceEjecutador from "../images/App/SoftSelfServiceEjecutador.png"
 import TheSafeBNB from "../images/App/TheSafeBNB.png"
@@ -22,6 +23,11 @@ export default function Proyectos() {
 				</div>
 				<div className="flex pl-6 pr-6 pb-3 pt-3 flex-col md:flex-row">
 					<div className="flex justify-center flex-col items-center">
+						<div className="w-[50%] md:w-fit">
+							<a href={SoftSelfServiceEsquema.src} rel="noopener noreferrer" target="_blank">
+								<Image alt="SoftSelfServiceEsquema" className="inline p-2" src={SoftSelfServiceEsquema}/>
+							</a>
+						</div>
 						<div className="w-[50%] md:w-fit">
 							<a href={SoftSelfServiceWeb.src} rel="noopener noreferrer" target="_blank">
 								<Image alt="SoftSelfServiceWeb" className="inline p-2" src={SoftSelfServiceWeb}/>
