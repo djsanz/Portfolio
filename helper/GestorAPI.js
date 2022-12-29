@@ -5,17 +5,26 @@ const ApiUrl = "https://gestor.djsanz.es/"
 export const CreaVisita = async () => {
 	if (sessionStorage.getItem('Visita')) { return null }
 	if (window.location.hostname === "localhost") { return null }
-	const Data = {
+
+	var myHeaders = new Headers();
+	myHeaders.append("Content-Type", "application/json");
+	
+	var Body = JSON.stringify({
+	  "ExtraData": {
 		"BaseURL": window.location.origin,
-		"Path": window.location.pathname,
-	}
-	const Url = ApiUrl + 'visitas/' + process.env.NEXT_PUBLIC_AppName
-	fetch(Url, {
-		method: 'POST',
-		headers: { 'Content-Type': 'application/json' },
-		body: JSON.stringify(Data)
-	})
-		.then(response => response.json())
-		.then(data => { sessionStorage.setItem('Visita', data) })
+		"Path": window.location.pathname
+	  }
+	});
+	
+	var requestOptions = {
+	  method: 'POST',
+	  headers: myHeaders,
+	  body: Body,
+	  redirect: 'follow'
+	};
+
+	fetch(ApiUrl + 'visitas/' + process.env.NEXT_PUBLIC_AppName, requestOptions)
+		.then(response => response.text())
+		.then(result => { sessionStorage.setItem('Visita', result) })
 		.catch(() => { console.error('Error Registrando Visita') });
 }
