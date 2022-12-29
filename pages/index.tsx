@@ -3,7 +3,7 @@ import Portada from '../components/Portada'
 import Tecnologias from '../components/Tecnologias'
 import Proyectos from '../components/Proyectos'
 import { CreaVisita } from '../helper/GestorAPI'
-import { useEffect } from 'react'
+import { useEffect } from 'react';
 
 export default function Home() {
 
