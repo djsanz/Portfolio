@@ -35,7 +35,7 @@ export default function Tecnologias() {
 					<div className="flex justify-center mt-1 mb-2"><div className="border w-[50%] border-gray-500"></div></div>
 					<div className="flex flex-wrap justify-center align-middle space-x-2 md:space-x-3 lg:space-x-6 -space-y-10 md:space-y-3 lg:space-y-6 p-0 md:p-2">
 						<img alt="windowsLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={windowsLogo.src}/>
-						<img alt="AdLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={AdLogo.src}/>
+						<img alt="AdLogo" className="scale-50 md:scale-75 lg:scale-100 h-[140px]" src={AdLogo.src}/>
 						<img alt="SqlServerLogo" className="scale-50 md:scale-75 lg:scale-100 h-[100px]" src={SqlServerLogo.src}/>
 						<img alt="VeeamLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={VeeamLogo.src}/>
 						<img alt="vmWareLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={vmWareLogo.src}/>

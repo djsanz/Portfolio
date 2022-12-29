@@ -66,7 +66,7 @@ export default function Proyectos() {
 				<div className="flex pl-6 pr-6 pb-3 pt-3 flex-col md:flex-row">
 					<div className="justify-center">
 						<a href={TheSafeBNB.src} rel="noopener noreferrer" target="_blank">
-							<Image alt="TheSafeBNB" className="inline p-2 w-[50%] md:w-fit" src={TheSafeBNB} />
+							<Image alt="TheSafeBNB" className="inline p-2 w-[50%] md:w-[100%]" src={TheSafeBNB} />
 						</a>
 					</div>
 					<div className="flex-col text-left p-2 xs:p-6 text-stone-300 leading-loose space-y-5">
