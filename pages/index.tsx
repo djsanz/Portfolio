@@ -3,16 +3,12 @@ import Portada from '../components/Portada'
 import Tecnologias from '../components/Tecnologias'
 import Proyectos from '../components/Proyectos'
 import { CreaVisita } from '../helper/GestorAPI'
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 
 export default function Home() {
-	const [visita, setVisita] = useState(false)
 
 	useEffect(() => {
-		if (!visita){
-			setVisita(true)
-			CreaVisita()
-		}
+		CreaVisita()
 	}, [])
 
 	return (
