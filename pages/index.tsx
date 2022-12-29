@@ -19,7 +19,7 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main className="text-center bg-black text-white min-h-screen flex flex-col overflow-x-clip bg-gradient-to-r from-gray-900">
+			<main className="px-3 xs:px-14 text-center bg-black text-white min-h-screen flex flex-col overflow-x-clip bg-gradient-to-r from-gray-900">
 				<Portada />
 				<Tecnologias />
 				<Proyectos />

@@ -23,7 +23,7 @@ import SolidityLogo from "../images/iconos/Solidity.jpg"
 
 export default function Tecnologias() {
 	return (
-		<div className="flex flex-col mt-8 px-3 xs:px-14">
+		<div className="flex flex-col mt-8">
 			<div className="mb-4 font-Dancing text-amber-500 text-4xl text-left">
 				Conocimientos:
 			</div>
@@ -33,12 +33,12 @@ export default function Tecnologias() {
 						ADMINISTRADOR DE SISTEMAS
 					</div>
 					<div className="flex justify-center mt-1 mb-2"><div className="border w-[50%] border-gray-500"></div></div>
-					<div className="flex flex-wrap justify-center space-x-2 md:space-x-3 lg:space-x-6 -space-y-2 md:space-y-3 lg:space-y-6 p-0 md:p-2">
-						<Image alt="windowsLogo" height="120" className="scale-50 md:scale-75 lg:scale-100" src={windowsLogo}/>
-						<Image alt="AdLogo" height="120" className="scale-50 md:scale-75 lg:scale-100" src={AdLogo}/>
-						<Image alt="SqlServerLogo" height="120" className="scale-50 md:scale-75 lg:scale-100" src={SqlServerLogo}/>
-						<Image alt="VeeamLogo" height="120" className="scale-50 md:scale-75 lg:scale-100" src={VeeamLogo}/>
-						<Image alt="vmWareLogo" height="120" className="scale-50 md:scale-75 lg:scale-100" src={vmWareLogo}/>
+					<div className="flex flex-wrap justify-center align-middle space-x-2 md:space-x-3 lg:space-x-6 -space-y-10 md:space-y-3 lg:space-y-6 p-0 md:p-2">
+						<img alt="windowsLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={windowsLogo.src}/>
+						<img alt="AdLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={AdLogo.src}/>
+						<img alt="SqlServerLogo" className="scale-50 md:scale-75 lg:scale-100 h-[100px]" src={SqlServerLogo.src}/>
+						<img alt="VeeamLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={VeeamLogo.src}/>
+						<img alt="vmWareLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={vmWareLogo.src}/>
 					</div>
 				</div>
 				<div className="flex-1 rounded-md">
@@ -46,18 +46,18 @@ export default function Tecnologias() {
 						DEVELOPER
 					</div>
 					<div className="flex justify-center mt-1 mb-2"><div className="border w-[50%] border-gray-500"></div></div>
-					<div className="flex flex-wrap justify-center space-x-2 md:space-x-3 lg:space-x-6 -space-y-2 md:space-y-3 lg:space-y-6 p-0 md:p-2">
-						<Image alt="AutoItLogo" height="100" className="scale-50 md:scale-75 lg:scale-100 rounded-2xl" src={AutoItLogo}/>
-						<Image alt="GoLogo" height="100" className="scale-50 md:scale-75 lg:scale-100" src={GoLogo}/>
-						<Image alt="PythonLogo" height="100" className="scale-50 md:scale-75 lg:scale-100" src={PythonLogo}/>
-						<Image alt="FlaskLogo" height="100" className="scale-50 md:scale-75 lg:scale-100 rounded-lg" src={FlaskLogo}/>
-						<Image alt="NodeJsLogo" height="100" className="scale-50 md:scale-75 lg:scale-100 rounded-full" src={NodeJsLogo}/>
-						<Image alt="FastifyLogo" height="100" className="scale-50 md:scale-75 lg:scale-100 rounded-full" src={FastifyLogo}/>
-						<Image alt="ReactLogo" height="100" className="scale-50 md:scale-75 lg:scale-100" src={ReactLogo}/>
-						<Image alt="NextLogo" height="100" className="scale-50 md:scale-75 lg:scale-100" src={NextLogo}/>
-						<Image alt="VercelLogo" height="100" className="scale-50 md:scale-75 lg:scale-100 rounded-lg" src={VercelLogo}/>
-						<Image alt="MongoDB" height="100" className="scale-50 md:scale-75 lg:scale-100 rounded-full" src={MongoDBLogo}/>
-						<Image alt="SolidityLogo" height="100" className="scale-50 md:scale-75 lg:scale-100 rounded-lg" src={SolidityLogo}/>
+					<div className="flex flex-wrap justify-center align-middle space-x-2 md:space-x-3 lg:space-x-6 -space-y-10 md:space-y-3 lg:space-y-6 p-0 md:p-2">
+						<img alt="AutoItLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-2xl h-[110px]" src={AutoItLogo.src}/>
+						<img alt="GoLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={GoLogo.src}/>
+						<img alt="PythonLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={PythonLogo.src}/>
+						<img alt="FlaskLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-lg h-[100px]" src={FlaskLogo.src}/>
+						<img alt="NodeJsLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-full h-[120px]" src={NodeJsLogo.src}/>
+						<img alt="FastifyLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-full h-[130px]" src={FastifyLogo.src}/>
+						<img alt="ReactLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={ReactLogo.src}/>
+						<img alt="NextLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={NextLogo.src}/>
+						<img alt="VercelLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-lg h-[120px]" src={VercelLogo.src}/>
+						<img alt="MongoDB" className="scale-50 md:scale-75 lg:scale-100 rounded-full h-[120px]" src={MongoDBLogo.src}/>
+						<img alt="SolidityLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-lg h-[120px]" src={SolidityLogo.src}/>
 					</div>
 				</div>
 			</div>
