@@ -43,7 +43,7 @@ export default function Proyectos() {
 							Usando este servicio junto con unos ficheros de configuración, se aplican instalaciones y configuraciones especificas en el inicio de sesión del usuario, dependiendo a que grupo de seguridad pertenezcan, dejando el equipo listo para trabajar independientemente de en que equipo esté.
 						</p>
 						<p>
-							Se ha creado usado Php Slim, MySql y AutoIt.
+							Se ha creado usando Php Slim, MySql y AutoIt.
 						</p>
 					</div>
 				</div>
@@ -78,7 +78,7 @@ export default function Proyectos() {
 							Las llaves son un Nft personalizado que pueden ser de 3 tipos, Iron, Silver y Golden.
 						</p>
 						<p>
-							Se ha creado usado React y Solidity para los contratos. Está en la red de TestNet de Binance Smart Chain.
+							Se ha creado usando React y Solidity para los contratos. Está en la red de TestNet de Binance Smart Chain.
 						</p>
 					</div>
 				</div>
@@ -120,7 +120,7 @@ export default function Proyectos() {
 							Es totalmente compatible con Markets del tipo OpenSea o Rarible.
 						</p>
 						<p className="">
-							Se ha creado usado React, Python Flask, MongoDB y Solidity para los contratos.
+							Se ha creado usando React, Python Flask, MongoDB y Solidity para los contratos.
 						</p>
 					</div>
 				</div>
@@ -160,10 +160,10 @@ export default function Proyectos() {
 							El Nft es un contrato en Solidity totalmente personalizado, que solo puede tener uno por Wallet y no se puede transferir.
 						</p>
 						<p className="">
-							Esta desplegado en Mumbai, la TestNet de Polygon, ya que esté proyecto de momento es solo un Demo.
+							Esta desplegado en Mumbai, la TestNet de Polygon, ya que esté proyecto de momento es un Demo.
 						</p>
 						<p className="">
-							Se ha creado usado React, ExpressJS, MongoDB y Solidity para los contratos.
+							Se ha creado usando React, ExpressJS, MongoDB y Solidity para los contratos.
 						</p>
 					</div>
 				</div>
@@ -197,10 +197,10 @@ export default function Proyectos() {
 							Usamos una moneda SanzUSDC y un contrato para guardar los pedidos, ambos creados en Solidity y con sus respectivos Faucets.
 						</p>
 						<p className="">
-							Esta desplegado en Goerli, una TestNet de Ethereum, ya que esté proyecto de momento es solo un Demo educativo.
+							Esta desplegado en Goerli, una TestNet de Ethereum, ya que esté proyecto de momento es un Demo educativo.
 						</p>
 						<p className="">
-							Se ha creado usado React y Solidity para los contratos.
+							Se ha creado usando React y Solidity para los contratos.
 						</p>
 					</div>
 				</div>
