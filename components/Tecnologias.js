@@ -18,7 +18,7 @@ import NextLogo from "../images/iconos/Next.png"
 import VercelLogo from "../images/iconos/Vercel.png"
 import MongoDBLogo from "../images/iconos/MongoDB.webp"
 import SolidityLogo from "../images/iconos/Solidity.jpg"
-
+import VueLogo from "../images/iconos/Vue.png"
 
 
 export default function Tecnologias() {
@@ -58,6 +58,7 @@ export default function Tecnologias() {
 						<img alt="VercelLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-lg h-[120px]" src={VercelLogo.src}/>
 						<img alt="MongoDB" className="scale-50 md:scale-75 lg:scale-100 rounded-full h-[120px]" src={MongoDBLogo.src}/>
 						<img alt="SolidityLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-lg h-[120px]" src={SolidityLogo.src}/>
+						<img alt="VueLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-2xl h-[100px]" src={VueLogo.src}/>
 					</div>
 				</div>
 			</div>

@@ -5,6 +5,7 @@ import Link from "next/link";
 import SeeIcon from "../images/SeeIcon.svg";
 import SoftSelfServiceEsquema from "../images/App/SoftSelfServiceEsquema.png"
 import SoftSelfServiceWeb from "../images/App/SoftSelfServiceWeb.png"
+import SoftSelfServiceWebNew from "../images/App/SoftSelfServiceWebNew.png"
 import TheSafeBNB from "../images/App/TheSafeBNB.png"
 import MyDynamicNFT from "../images/App/EditNFT2.gif"
 import MyNftID from "../images/App/MyNftID.png"
@@ -34,6 +35,11 @@ export default function Proyectos() {
 								<Image alt="SoftSelfServiceWeb" className="inline p-2" src={SoftSelfServiceWeb} />
 							</a>
 						</div>
+						<div className="">
+							<a href={SoftSelfServiceWebNew.src} rel="noopener noreferrer" target="_blank">
+								<Image alt="SoftSelfServiceWeb" className="inline p-2" src={SoftSelfServiceWebNew} />
+							</a>
+						</div>
 					</div>
 					<div className="flex-col text-left p-2 xs:p-6 text-stone-300 leading-loose space-y-5">
 						<p>
@@ -43,7 +49,10 @@ export default function Proyectos() {
 							Usando este servicio junto con unos ficheros de configuración, se aplican instalaciones y configuraciones especificas en el inicio de sesión del usuario, dependiendo a que grupo de seguridad pertenezcan, dejando el equipo listo para trabajar independientemente de en que equipo esté.
 						</p>
 						<p>
-							Se ha creado usando Php Slim, MySql y AutoIt.
+							La programé inicialmente usando Php Slim, MySql y AutoIt.
+						</p>
+						<p>
+							Ahora la he renovado usando Vue, Laravel, MySql y Golang.
 						</p>
 					</div>
 				</div>
