@@ -10,6 +10,7 @@ import TheSafeBNB from "../images/App/TheSafeBNB.png"
 import MyDynamicNFT from "../images/App/EditNFT2.gif"
 import MyNftID from "../images/App/MyNftID.png"
 import CryptoShop from "../images/App/CryptoShop.png"
+import NftGallery from "../images/App/NftGallery.gif"
 
 
 export default function Proyectos() {
@@ -210,6 +211,40 @@ export default function Proyectos() {
 						</p>
 						<p className="">
 							Se ha creado usando React y Solidity para los contratos.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			{/* NftGallery */}
+			<div className="border-2 flex flex-col border-amber-700 basis-4/6 flex-1 rounded-md shadow-md shadow-amber-600 my-6">
+				<div className="pl-2 xs:pl-12 text-gray-400 font-bold text-2xl text-left pt-2 flex">
+					<div className=" flex-1">
+						<a href="https://nftgallery.mydynamicnft.com/" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
+							NftGallery
+						</a>
+					</div>
+					<div className="pr-1">
+						<a href="https://nftgallery.mydynamicnft.com/" rel="noopener noreferrer" target="_blank" className="underline hover:text-amber-500 hover:font-bold">
+							<img src={SeeIcon.src} className="h-10 opacity-60 hover:scale-125 hover:opacity-80" />
+						</a>
+					</div>
+				</div>
+				<div className="flex pl-6 pr-6 pb-3 pt-3 flex-col md:flex-row">
+					<div className="justify-center">
+						<a href={NftGallery.src} rel="noopener noreferrer" target="_blank">
+							<Image alt="CryptoShop" className="inline p-2" src={NftGallery} />
+						</a>
+					</div>
+					<div className="flex-col text-left p-2 xs:p-6 text-stone-300 space-y-5">
+						<p className="">
+							Galería NFT multichain, donde se pueden ver los NFTs de las diferentes cadenas de bloques.
+						</p>
+						<p className="">
+							Cadenas de bloques soportadas: Hedera, Solana, Ethereum, Polygon, Binance Smart Chain, Fantom, Avalanche, Optimism, Cronos y Palm
+						</p>
+						<p className="">
+							Se ha creado usando Vue.js y apis de Alchemy, Moralis y Hedera.
 						</p>
 					</div>
 				</div>
