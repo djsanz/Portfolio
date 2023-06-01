@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import SeeIcon from "../images/SeeIcon.svg";
 import SoftSelfServiceEsquema from "../images/App/SoftSelfServiceEsquema.png"
-import SoftSelfServiceWeb from "../images/App/SoftSelfServiceWeb.png"
+// import SoftSelfServiceWeb from "../images/App/SoftSelfServiceWeb.png"
 import SoftSelfServiceWebNew from "../images/App/SoftSelfServiceWebNew.png"
 import TheSafeBNB from "../images/App/TheSafeBNB.png"
 import MyDynamicNFT from "../images/App/EditNFT2.gif"
@@ -31,11 +31,11 @@ export default function Proyectos() {
 								<Image alt="SoftSelfServiceEsquema" className="inline p-2" src={SoftSelfServiceEsquema} />
 							</a>
 						</div>
-						<div className="">
+						{/* <div className="">
 							<a href={SoftSelfServiceWeb.src} rel="noopener noreferrer" target="_blank">
 								<Image alt="SoftSelfServiceWeb" className="inline p-2" src={SoftSelfServiceWeb} />
 							</a>
-						</div>
+						</div> */}
 						<div className="">
 							<a href={SoftSelfServiceWebNew.src} rel="noopener noreferrer" target="_blank">
 								<Image alt="SoftSelfServiceWeb" className="inline p-2" src={SoftSelfServiceWebNew} />

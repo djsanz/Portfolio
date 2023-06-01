@@ -12,7 +12,7 @@ import PythonLogo from "../images/iconos/Python.png"
 import FlaskLogo from "../images/iconos/FlaskLogo.png"
 import GoLogo from "../images/iconos/Go.png"
 import NodeJsLogo from "../images/iconos/NodeJsLogo.png"
-import FastifyLogo from "../images/iconos/Fastify.png"
+// import FastifyLogo from "../images/iconos/Fastify.png"
 import ReactLogo from "../images/iconos/ReactLogo.png"
 import NextLogo from "../images/iconos/Next.png"
 import VercelLogo from "../images/iconos/Vercel.png"
@@ -52,7 +52,7 @@ export default function Tecnologias() {
 						<img alt="PythonLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={PythonLogo.src}/>
 						<img alt="FlaskLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-lg h-[100px]" src={FlaskLogo.src}/>
 						<img alt="NodeJsLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-full h-[120px]" src={NodeJsLogo.src}/>
-						<img alt="FastifyLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-full h-[130px]" src={FastifyLogo.src}/>
+						{/* <img alt="FastifyLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-full h-[130px]" src={FastifyLogo.src}/> */}
 						<img alt="ReactLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={ReactLogo.src}/>
 						<img alt="NextLogo" className="scale-50 md:scale-75 lg:scale-100 h-[120px]" src={NextLogo.src}/>
 						<img alt="VercelLogo" className="scale-50 md:scale-75 lg:scale-100 rounded-lg h-[120px]" src={VercelLogo.src}/>
